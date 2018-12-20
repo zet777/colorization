@@ -4,7 +4,7 @@
   	<script src="https://algorithmia.com/v1/clients/js/algorithmia-0.2.0.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		var input = {
-    "image": "data://strannik36/Test/lion.jpg"
+    "image": "data://strannik36/Test/lion.jpg" // хранится на сервере, пока менять адрес вручную
 };
 	function color(){
 		Algorithmia.client("simgix6JvqMVB68I0c7gdZZhpLl1")
@@ -29,7 +29,7 @@
 <hr>
 	<div><img class="black" src="img/lion.jpg"></div>
 	<div class="color-btn-div"><button type="button" class="btn btn-primary" onclick="color()"><span class="color-btn">Раскрасить</span></button></div>
-	<div><img class="color-photo" src="https://algorithmia.com/v1/data/.algo/deeplearning/ColorfulImageColorization/temp/lion.png" alt="">
+	<div><img class="color-photo" src="https://algorithmia.com/v1/data/.algo/deeplearning/ColorfulImageColorization/temp/lion.png" alt=""> <!-- Цветное фото, которое должно получится, адрес писать вручную -->
 	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
